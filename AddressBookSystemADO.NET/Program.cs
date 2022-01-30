@@ -17,7 +17,10 @@ namespace AddressBookSystemADO.NET
             //addressBookManagement.GetAllContact();
 
             //UC3
-            AddNewContactDetails();
+            //AddNewContactDetails();
+
+            //UC4                                                      // Zip,   FirstName, LastName
+            Console.WriteLine(addressBookManagement.EditContactUsingName("442207", "Ekta", "Kapoor") ? "Update Record successfully\n" : "Update failed"); 
         }
 
         /* UC3:- Ability to insert new Contacts to Address Book */
