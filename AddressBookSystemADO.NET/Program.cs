@@ -20,7 +20,10 @@ namespace AddressBookSystemADO.NET
             //AddNewContactDetails();
 
             //UC4                                                      // Zip,   FirstName, LastName
-            Console.WriteLine(addressBookManagement.EditContactUsingName("442207", "Ekta", "Kapoor") ? "Update Record successfully\n" : "Update failed"); 
+            //Console.WriteLine(addressBookManagement.EditContactUsingName("442207", "Ekta", "Kapoor") ? "Update Record successfully\n" : "Update failed");
+
+            //UC5
+            Console.WriteLine(addressBookManagement.DeleteContactUsingName("Ekta", "Kapoor") ? "Record Deleted successfully\n" : "Delete failed"); 
         }
 
         /* UC3:- Ability to insert new Contacts to Address Book */
