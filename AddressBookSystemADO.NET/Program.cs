@@ -26,7 +26,10 @@ namespace AddressBookSystemADO.NET
             //Console.WriteLine(addressBookManagement.DeleteContactUsingName("Ekta", "Kapoor") ? "Record Deleted successfully\n" : "Delete failed");
 
             //UC6
-            addressBookManagement.RetrieveContactFromCityOrStateName();
+            //addressBookManagement.RetrieveContactFromCityOrStateName();
+
+            //UC7
+            addressBookManagement.CountByCityOrState(); 
         }
 
         /* UC3:- Ability to insert new Contacts to Address Book */
